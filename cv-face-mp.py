@@ -1,10 +1,11 @@
 import cv2
 import mediapipe as mp
-import time
+
+cap = cv2.VideoCapture()
+cap.open(0, cv2.CAP_DSHOW)
 
 mp_facedetector = mp.solutions.face_detection
 mp_draw = mp.solutions.drawing_utils
-cap = cv2.VideoCapture(0)
 
 with mp_facedetector.FaceDetection(min_detection_confidence=0.7) as face_detection:
     while cap.isOpened():

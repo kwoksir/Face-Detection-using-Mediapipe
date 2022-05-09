@@ -59,6 +59,7 @@ cv2.destroyAllWindows()
 If you want to draw facial key points, uncomment the line. 
 ```python
 #mp_draw.draw_detection(image, detection)
+```
 ## References
 - [MediaPipe Face Detection](https://google.github.io/mediapipe/solutions/face_detection.html)
 - [Face Detection Using Mediapipe In Python](https://mlhive.com/2021/12/face-detection-using-mediapipe-in-python)

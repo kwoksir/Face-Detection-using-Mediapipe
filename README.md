@@ -1,7 +1,7 @@
 # Face Detection using Mediapipe
 Google open-source MediaPipe was first introduced in June, 2019. It aims to make our life easy by providing some integrated computer vision and machine learning features. Media Pipe is a framework for building multimodal(e.g video,audio or any time series data),cross-platform (i.eAndroid,IOS,web,edge devices) applied ML pipelines. Mediapipe also facilitates the deployment of machine learning technology into demos and applications on a wide variety of different hardware platforms.
 
-<img src="https://user-images.githubusercontent.com/61585411/167342300-c86e6c67-e05c-435e-ac08-ad9dd897decd.jpg" width=800>
+<img src="https://user-images.githubusercontent.com/61585411/167342300-c86e6c67-e05c-435e-ac08-ad9dd897decd.jpg" width=600>
 
 ## Steps Involved in Face Detection by using Mediapipe Framework
 - Importing all the essential libraries
